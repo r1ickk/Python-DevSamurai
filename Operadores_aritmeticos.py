@@ -31,3 +31,7 @@ print(divisao)
 # Operador divisão resto
 divisao = a%b
 print(divisao)
+
+# Operador exponenciação
+exponenciacao = a**b
+print(exponenciacao)
