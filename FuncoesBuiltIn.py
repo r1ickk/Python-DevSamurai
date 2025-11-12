@@ -32,4 +32,3 @@ print(nome)
 # Help
 # Mostra as funcionalidades de uma determinada função
 help(max)
-
