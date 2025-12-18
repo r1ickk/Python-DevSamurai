@@ -2,6 +2,7 @@
 
 num1 = int(input('Informe o número desejado: '))
 if num1 % 2 == 0:
+    # O símbolo de porcento retorna o resto da divisão
     print(True)
 else:
     print(False)
@@ -17,6 +18,10 @@ if menor_preco >= 20.00:
     print(True)
 else:
     print(False)
+
+    # Ou então, poderíamos fazer da seguinte maneira:
+    menor_preco = min(100.20, 34.90, 31.50, 18.95) < 20
+print(menor_preco)
 
 # # 3. Faça um programa que conevrta a temperatura em graus Fahrenheit fornecia pelo usuário em graus Celsius.
 # # celsius = (5/9)*(fahrenheit - 32)
